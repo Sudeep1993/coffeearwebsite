@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AR Coffee Cup</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body { margin: 0; background: #eee; }
+    model-viewer { width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+  <model-viewer
+    src="Coffee_Cup.glb"
+    ar
+    ar-modes="scene-viewer quick-look webxr"
+    auto-rotate
+    camera-controls
+    autoplay
+    shadow-intensity="1">
+  </model-viewer>
+</body>
+</html>
